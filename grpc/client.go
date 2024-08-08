@@ -28,7 +28,7 @@ func NewClient(c Config, opts ...grpc.DialOption) (*Client, error) {
 	if err != nil {
 		return nil, err
 	}
-	defer conn.Close()
+	// defer conn.Close()
 
 	return &Client{
 		Permission: pclient.NewPermissionClient(conn),
