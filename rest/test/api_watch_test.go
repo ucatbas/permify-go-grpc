@@ -11,10 +11,11 @@ package permify
 
 import (
 	"context"
+	"testing"
+
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID/permify"
+	openapiclient "github.com/ucatbas/permify-go-grpc/rest"
 )
 
 func Test_permify_WatchAPIService(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_permify_WatchAPIService(t *testing.T) {
 
 	t.Run("Test WatchAPIService WatchWatch", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tenantId string
 

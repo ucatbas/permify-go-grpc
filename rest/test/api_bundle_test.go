@@ -11,10 +11,11 @@ package permify
 
 import (
 	"context"
+	"testing"
+
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID/permify"
+	openapiclient "github.com/ucatbas/permify-go-grpc/rest"
 )
 
 func Test_permify_BundleAPIService(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_permify_BundleAPIService(t *testing.T) {
 
 	t.Run("Test BundleAPIService BundleDelete", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tenantId string
 
@@ -38,7 +39,7 @@ func Test_permify_BundleAPIService(t *testing.T) {
 
 	t.Run("Test BundleAPIService BundleRead", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tenantId string
 
@@ -52,7 +53,7 @@ func Test_permify_BundleAPIService(t *testing.T) {
 
 	t.Run("Test BundleAPIService BundleWrite", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tenantId string
 

@@ -11,10 +11,11 @@ package permify
 
 import (
 	"context"
+	"testing"
+
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID/permify"
+	openapiclient "github.com/ucatbas/permify-go-grpc/rest"
 )
 
 func Test_permify_PermissionAPIService(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_permify_PermissionAPIService(t *testing.T) {
 
 	t.Run("Test PermissionAPIService PermissionsCheck", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tenantId string
 
@@ -38,7 +39,7 @@ func Test_permify_PermissionAPIService(t *testing.T) {
 
 	t.Run("Test PermissionAPIService PermissionsExpand", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tenantId string
 
@@ -52,7 +53,7 @@ func Test_permify_PermissionAPIService(t *testing.T) {
 
 	t.Run("Test PermissionAPIService PermissionsLookupEntity", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tenantId string
 
@@ -66,7 +67,7 @@ func Test_permify_PermissionAPIService(t *testing.T) {
 
 	t.Run("Test PermissionAPIService PermissionsLookupEntityStream", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tenantId string
 
@@ -80,7 +81,7 @@ func Test_permify_PermissionAPIService(t *testing.T) {
 
 	t.Run("Test PermissionAPIService PermissionsLookupSubject", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tenantId string
 
@@ -94,7 +95,7 @@ func Test_permify_PermissionAPIService(t *testing.T) {
 
 	t.Run("Test PermissionAPIService PermissionsSubjectPermission", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tenantId string
 

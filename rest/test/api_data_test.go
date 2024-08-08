@@ -11,10 +11,11 @@ package permify
 
 import (
 	"context"
+	"testing"
+
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID/permify"
+	openapiclient "github.com/ucatbas/permify-go-grpc/rest"
 )
 
 func Test_permify_DataAPIService(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_permify_DataAPIService(t *testing.T) {
 
 	t.Run("Test DataAPIService BundleRun", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tenantId string
 
@@ -38,7 +39,7 @@ func Test_permify_DataAPIService(t *testing.T) {
 
 	t.Run("Test DataAPIService DataAttributesRead", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tenantId string
 
@@ -52,7 +53,7 @@ func Test_permify_DataAPIService(t *testing.T) {
 
 	t.Run("Test DataAPIService DataDelete", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tenantId string
 
@@ -66,7 +67,7 @@ func Test_permify_DataAPIService(t *testing.T) {
 
 	t.Run("Test DataAPIService DataRelationshipsRead", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tenantId string
 
@@ -80,7 +81,7 @@ func Test_permify_DataAPIService(t *testing.T) {
 
 	t.Run("Test DataAPIService DataWrite", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tenantId string
 
@@ -94,7 +95,7 @@ func Test_permify_DataAPIService(t *testing.T) {
 
 	t.Run("Test DataAPIService RelationshipsDelete", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tenantId string
 
@@ -108,7 +109,7 @@ func Test_permify_DataAPIService(t *testing.T) {
 
 	t.Run("Test DataAPIService RelationshipsWrite", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tenantId string
 
